@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: grid;
+  gap: 10px;
+  height: 100vh;
+  grid-template-rows: 1.25fr 1fr 5fr 2fr;
+}
+
+.items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 10px;
+}
+/* HEADER  */
+.header {
+  background-color: green;
+}
+
+/* HEADING */
+.heading {
+  background-color: rgb(44, 168, 6);
+}
+
+/* Main Content */
+.content {
+  background-color: greenyellow;
+  font-weight: bold;
+}
+
+p {
+  margin: 0 40px;
+}
+
+.copyright {
+  font-style: italic;
+  font-weight: normal;
+  align-self: flex-end;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(33, 209, 33);
+}
