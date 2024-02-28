@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+.featured {
+  color: rgb(230, 224, 224);
+  margin-bottom: 60px;
+  flex: 0 1 50%;
+  text-align: center;
+}
+
+span {
+  font-style: italic;
+  float: right;
+}
+
+span::after {
+  clear: both;
+}
