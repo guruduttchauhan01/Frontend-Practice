@@ -16,7 +16,8 @@ body {
   background-color: #dddddd;
   margin: 20px;
   display: grid;
-  grid-template-rows: 1fr 8fr 1fr;
+  grid-template-rows: auto 5fr auto;
+  font-family: sans-serif;
   /* gap: 20px; */
 }
 
@@ -64,10 +65,24 @@ section {
   background-color: cyan;
 }
 
+.section-div2 p,
+.section-div2 h1 {
+  padding: 10px;
+}
+
+.section-div2 p {
+  font-weight: 500;
+  line-height: 1.5;
+}
+
 .section-div3 {
   background-color: rgb(8, 221, 132);
 }
 
 footer {
   background-color: green;
+}
+
+footer p {
+  padding: 20px;
 }
