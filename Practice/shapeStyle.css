@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.square {
+  background-color: red;
+  height: 200px;
+  width: 200px;
+}
+
+.triangle {
+  height: 200px;
+  width: 200px;
+  background-color: green;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+
+.circle {
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+  clip-path: circle(50%);
+}
